@@ -7,6 +7,10 @@ app.get('/', (req, res) => {
   res.send('you are the best ');
 });
 
+app.get('/api', (req, res) => {
+  res.sen('you are the best ');
+});
+
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`);
