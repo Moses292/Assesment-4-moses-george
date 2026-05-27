@@ -28,3 +28,15 @@ package.js: just package of the deployment
 | Environment | Branch | Render URL |
 |---|---|---|
 | Production | main | *Add URL here* |
+
+## Environment Variables and Secrets
+
+This project uses:
+
+| Component | Purpose |
+|----------|----------|
+| APP_ENV | Environment identification |
+| Render Secret File | Runtime secret storage |
+| GitHub Secret | CI/CD workflow secret |
+
+Secrets are not committed into GitHub.
